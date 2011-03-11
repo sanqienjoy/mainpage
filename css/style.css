@@ -74,8 +74,8 @@ a:hover {
 }
 #logo {
     position:       absolute;
-    bottom:         40px;
-    left:           0;
+    bottom:         20px;
+    left:           -20px;
     z-index:        99;
 }
 
@@ -164,35 +164,65 @@ a.share {
     text-indent:        -999px;
     overflow:           hidden;
 }
-#share-douban-link {
-    background-position:    -40px 0;
-}
-#share-douban-link:hover {
-    background-position:    -40px -40px;
-}
-#share-wangyi-link {
-    background-position:    -80px 0;
-}
-#share-wangyi-link:hover {
-    background-position:    -80px -40px;
-}
 #share-sina-link {
     background-position:    0 0;
 }
 #share-sina-link:hover {
     background-position:    0 -40px;
 }
-#share-baidu-link {
-    background-position:    -160px 0;
+#share-github-link {
+    background-position:    -40px 0;
 }
-#share-baidu-link:hover {
-    background-position:    -160px -40px;
+#share-github-link:hover {
+    background-position:    -40px -40px;
 }
-#share-xiami-link {
+#share-douban-link {
+    background-position:    -80px 0;
+}
+#share-douban-link:hover {
+    background-position:    -80px -40px;
+}
+#share-renren-link {
     background-position:    -120px 0;
 }
-#share-xiami-link:hover {
+#share-renren-link:hover {
     background-position:    -120px -40px;
+}
+#share-linkedin-link {
+    background-position:    -160px 0;
+}
+#share-linkedin-link:hover {
+    background-position:    -160px -40px;
+}
+#share-flickr-link {
+    background-position:    -200px 0;
+}
+#share-flickr-link:hover {
+    background-position:    -200px -40px;
+}
+#share-facebook-link {
+    background-position:    -240px 0;
+}
+#share-facebook-link:hover {
+    background-position:    -240px -40px;
+}
+#share-twitter-link {
+    background-position:    -280px 0;
+}
+#share-twitter-link:hover {
+    background-position:    -280px -40px;
+}
+#share-youtube-link {
+    background-position:    -320px 0;
+}
+#share-youtube-link:hover {
+    background-position:    -320px -40px;
+}
+#share-seed-link {
+    background-position:    -360px 0;
+}
+#share-seed-link:hover {
+    background-position:    -360px -40px;
 }
 #footer p {
     position:               absolute;
