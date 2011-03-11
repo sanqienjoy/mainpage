@@ -1,0 +1,218 @@
+body {
+    margin:         0;
+    padding:        0;
+    color:          #343434;
+    font:           13px arial;
+    background:     transparent url(../img/body-bg.png);
+}
+
+a {
+    color:              #205aaf;
+    text-decoration:    none;
+}
+
+a img {
+    border:     0;
+}
+a:hover {
+    color:      #343434;
+}
+#wrapper {
+    padding-top:    7px;
+    background:     transparent url(../img/colorbar.png) repeat-x top left;
+}
+
+
+
+#container {
+    background:     transparent url(../img/header-bg.png) repeat-x top left;
+    position:       relative;
+}
+
+#gradient {
+    position:       absolute;
+    top:            0;
+    left:           0;
+    right:          0;
+    bottom:         0;
+    background:     transparent url(../img/gradient.png) no-repeat 50% -100px;
+    z-index:        1;
+    height:         1236px;
+}
+
+
+#header {
+    height:         225px;
+    position:       relative;
+    margin:         0 auto;
+    width:          930px;
+    z-index:        10;
+}
+
+#header h3 {
+    font-family:    'Droid Sans', arial;
+    font-weight:    normal;
+    color:          #898989;
+    position:       absolute;
+    padding-top:    15px;
+    bottom:         90px;
+    right:          -22px;
+    font-size:      21px;
+    background:     transparent url(../img/map-icon.png) no-repeat bottom right;
+    height:         21px;
+    line-height:    21px;
+    margin:         0;
+    width:          515px;
+    z-index:        99;
+}
+
+#header h3 a {
+    color:          #898989;
+    padding-right:  45px;
+    position:       absolute;
+    z-index:        99;
+}
+#logo {
+    position:       absolute;
+    bottom:         40px;
+    left:           0;
+    z-index:        99;
+}
+
+#nav {
+    margin:         0;
+    padding:        0;
+    position:       absolute;
+    right:          0;
+    bottom:         40px;
+    z-index:        99;
+}
+
+#nav li {
+    position:       relative;
+    list-style:     none;
+    margin:         0 0 0 6px;
+    padding:        0;
+    float:          left;
+    background:     transparent url(../img/nav-button-left-sprite.png) no-repeat top left;
+}
+#nav li a {
+    display: block;
+    background-image:       url(../img/nav-button-sprite.png);
+    background-repeat:      no-repeat;
+    background-position:    top right;
+    height:                 31px;
+    margin-left:            10px;
+    line-height:            31px;
+    font-family:            'Droid Sans', Arial;
+    font-size:              16px;
+    padding:                0 20px 0 10px;
+}
+#nav li:hover {
+    background-position:    left -33px;
+}
+#nav li:hover > a {
+    background-position:    right -33px;
+    color:                  #205aaf;
+}
+#nav li:active, #nav li.active {
+    background-position:    left -66px;
+}
+#nav li:active > a, #nav li.active > a {
+    background-position:    right -66px;
+    color:                  #FFF;
+}
+
+
+
+
+
+/* Footer */
+#footer {
+    background:     transparent url(../img/footer-bg.png);
+    height:         48px;
+    position:       fixed;
+    bottom:         0;
+    left:           0;
+    width:          100%;
+    z-index:        99;
+}
+#footer-content {
+    margin:         0 auto;
+    width:          930px;
+    position:       relative;
+}
+#footer ul {
+    margin:         0;
+    padding:        0;
+    position:       absolute;
+    left:           -4px;
+    line-height:    55px;
+}
+#footer ul li {
+    list-style:     none;
+    margin:         0;
+    padding:        0;
+    float:          left;
+}
+a.share {
+    background-image:   url(../img/footer-sprite.png);
+    background-repeat:  no-repeat;
+    display:            block;
+    width:              41px;
+    height:             48px;
+    text-indent:        -999px;
+    overflow:           hidden;
+}
+#share-douban-link {
+    background-position:    -40px 0;
+}
+#share-douban-link:hover {
+    background-position:    -40px -40px;
+}
+#share-wangyi-link {
+    background-position:    -80px 0;
+}
+#share-wangyi-link:hover {
+    background-position:    -80px -40px;
+}
+#share-sina-link {
+    background-position:    0 0;
+}
+#share-sina-link:hover {
+    background-position:    0 -40px;
+}
+#share-baidu-link {
+    background-position:    -160px 0;
+}
+#share-baidu-link:hover {
+    background-position:    -160px -40px;
+}
+#share-xiami-link {
+    background-position:    -120px 0;
+}
+#share-xiami-link:hover {
+    background-position:    -120px -40px;
+}
+#footer p {
+    position:               absolute;
+    right:                  0;
+    line-height:            55px;
+    padding:                0;
+    margin:                 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
