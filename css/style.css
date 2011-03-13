@@ -24,7 +24,7 @@ a:hover {
 
 
 
-#container {
+#container1 {
     background:     transparent url(../img/header-bg.png) repeat-x top left;
     position:       relative;
 }
@@ -36,10 +36,9 @@ a:hover {
     right:          0;
     bottom:         0;
     background:     transparent url(../img/gradient.png) no-repeat 50% -100px;
-    z-index:        1;
-    height:         1236px;
+    z-index:        0;
+    height:         650px;
 }
-
 
 #header {
     height:         225px;
@@ -79,7 +78,7 @@ a:hover {
     z-index:        99;
 }
 
-#nav {
+#nav1 {
     margin:         0;
     padding:        0;
     position:       absolute;
@@ -88,7 +87,7 @@ a:hover {
     z-index:        99;
 }
 
-#nav li {
+#nav1 li {
     position:       relative;
     list-style:     none;
     margin:         0 0 0 6px;
@@ -96,7 +95,7 @@ a:hover {
     float:          left;
     background:     transparent url(../img/nav-button-left-sprite.png) no-repeat top left;
 }
-#nav li a {
+#nav1 li a {
     display: block;
     background-image:       url(../img/nav-button-sprite.png);
     background-repeat:      no-repeat;
@@ -108,24 +107,20 @@ a:hover {
     font-size:              16px;
     padding:                0 20px 0 10px;
 }
-#nav li:hover {
+#nav1 li:hover {
     background-position:    left -33px;
 }
-#nav li:hover > a {
+#nav1 li:hover > a {
     background-position:    right -33px;
     color:                  #205aaf;
 }
-#nav li:active, #nav li.active {
+#nav1 li:active, #nav1 li.active {
     background-position:    left -66px;
 }
-#nav li:active > a, #nav li.active > a {
+#nav1 li:active > a, #nav1 li.active > a {
     background-position:    right -66px;
     color:                  #FFF;
 }
-
-
-
-
 
 /* Footer */
 #footer {
@@ -232,17 +227,123 @@ a.share {
     margin:                 0;
 }
 
+/*
+	Page style
+*/
 
+#container2 {
+	width:580px;
+	padding:10px;
+	margin:25px auto;
+	position:relative;
+	z-index:1;
+}
 
+#example {
+	width:600px;
+	height:350px;
+	position:relative;
+}
 
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
 
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
 
+/*
+	Slideshow
+*/
 
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
 
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
 
+.slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
 
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
 
+.slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
 
+/*
+	Next/prev buttons
+*/
 
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
 
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
 
